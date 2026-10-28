@@ -1,0 +1,42 @@
+# Licensed VASP potentials and program assets
+POTCAR
+POTCAR.*
+!POTCAR.list
+*.pot
+vasp_std
+vasp_gam
+vasp_ncl
+vtstcode*/
+vasp.*/
+
+# Bulky restart and volumetric data (can be regenerated from calculations)
+WAVECAR*
+CHGCAR*
+CHG
+LOCPOT
+AECCAR*
+ELFCAR
+PARCHG*
+
+# Scheduler, machine logs and local environment
+*.log
+*.out
+run.slurm
+.slurm/
+last_run/
+.conda-env/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# VASP/VTST source trees and third-party course archives
+src/
+build/
+bin/
+*.tar.gz
+*.tgz
+*.zip
+*.mp4
+*.avi
+*.pdf

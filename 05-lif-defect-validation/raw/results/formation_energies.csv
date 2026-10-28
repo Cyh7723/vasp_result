@@ -1,0 +1,5 @@
+material,defect,type,q,E_f_raw_eV,converged,note
+A_LiF_test_mp-1138,VLi_s0_qm1,VLi,-1,5.3128,True,"未含有限尺寸修正/VBM对齐/化学势相图, 仅供排序"
+A_LiF_test_mp-1138,VLi_s0_q0,VLi,0,6.7368,True,"未含有限尺寸修正/VBM对齐/化学势相图, 仅供排序"
+A_LiF_test_mp-1138,Lii_s0_q1,Lii,1,-3.1911,True,"未含有限尺寸修正/VBM对齐/化学势相图, 仅供排序"
+A_LiF_test_mp-1138,Lii_s0_q0,Lii,0,6.1942,True,"未含有限尺寸修正/VBM对齐/化学势相图, 仅供排序"

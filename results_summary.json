@@ -1,0 +1,226 @@
+{
+  "halides": {
+    "Li2ZrCl6": {
+      "static_E0_eV_per_cell": -118.69881313,
+      "atoms": 27,
+      "relax_status": "弛豫收敛",
+      "static_status": "数值完成（未做完整物理收敛验证）",
+      "last_relax_force_eV_per_A": 0.007481729813351989
+    },
+    "Li2ZrCl6_beta": {
+      "static_E0_eV_per_cell": -39.68560086,
+      "atoms": 9,
+      "relax_status": "弛豫收敛",
+      "static_status": "数值完成（未做完整物理收敛验证）",
+      "last_relax_force_eV_per_A": 0.009627252255965875
+    },
+    "Li3YCl6": {
+      "static_E0_eV_per_cell": -129.51363818,
+      "atoms": 30,
+      "relax_status": "弛豫收敛",
+      "static_status": "数值完成（未做完整物理收敛验证）",
+      "last_relax_force_eV_per_A": 0.008989582526458055
+    },
+    "Li3YCl6_amp": {
+      "static_E0_eV_per_cell": -129.51380737,
+      "atoms": 30,
+      "relax_status": "弛豫收敛",
+      "static_status": "数值完成（未做完整物理收敛验证）",
+      "last_relax_force_eV_per_A": 0.009145
+    }
+  },
+  "bulk_relaxations": {
+    "A_Li2O_mp-1960": {
+      "E0_eV_per_cell": -14.32153674,
+      "atoms": 3,
+      "ionic_steps": 4,
+      "last_max_force_eV_per_A": 2.092844953645635e-05,
+      "status": "弛豫收敛"
+    },
+    "A_Li2S_mp-1153": {
+      "E0_eV_per_cell": -11.93535385,
+      "atoms": 3,
+      "ionic_steps": 3,
+      "last_max_force_eV_per_A": 6.1644140029689764e-06,
+      "status": "弛豫收敛"
+    },
+    "A_Li2Te_mp-2530": {
+      "E0_eV_per_cell": -10.00138556,
+      "atoms": 3,
+      "ionic_steps": 3,
+      "last_max_force_eV_per_A": 3.0347981810987036e-05,
+      "status": "弛豫收敛"
+    },
+    "A_Li3BN2_mp-5914": {
+      "E0_eV_per_cell": -136.90961002,
+      "atoms": 24,
+      "ionic_steps": 12,
+      "last_max_force_eV_per_A": 0.00818113256218233,
+      "status": "弛豫收敛"
+    },
+    "A_Li3YN2_mp-1029592": {
+      "E0_eV_per_cell": -270.86377334,
+      "atoms": 48,
+      "ionic_steps": 13,
+      "last_max_force_eV_per_A": 0.006412914781906898,
+      "status": "弛豫收敛"
+    },
+    "A_Li7VN4_mp-4825": {
+      "E0_eV_per_cell": -495.27845489,
+      "atoms": 96,
+      "ionic_steps": 9,
+      "last_max_force_eV_per_A": 0.008055401976313784,
+      "status": "弛豫收敛"
+    },
+    "A_LiBr_mp-976280": {
+      "E0_eV_per_cell": -13.37170026,
+      "atoms": 4,
+      "ionic_steps": 9,
+      "last_max_force_eV_per_A": 0.008873003662796494,
+      "status": "弛豫收敛"
+    },
+    "A_LiCl_mp-1185319": {
+      "E0_eV_per_cell": -14.85672505,
+      "atoms": 4,
+      "ionic_steps": 7,
+      "last_max_force_eV_per_A": 0.009713000669206195,
+      "status": "弛豫收敛"
+    },
+    "A_LiErO2_mp-10970": {
+      "E0_eV_per_cell": -123.44020247,
+      "atoms": 16,
+      "ionic_steps": 1,
+      "last_max_force_eV_per_A": 0.6803768012461918,
+      "status": "未完成/未收敛"
+    },
+    "A_LiF_mp-1138": {
+      "E0_eV_per_cell": -9.62194519,
+      "atoms": 2,
+      "ionic_steps": 3,
+      "last_max_force_eV_per_A": 0.0,
+      "status": "弛豫收敛"
+    },
+    "A_LiI_mp-570935": {
+      "E0_eV_per_cell": -11.77910799,
+      "atoms": 4,
+      "ionic_steps": 4,
+      "last_max_force_eV_per_A": 0.005657007070881209,
+      "status": "弛豫收敛"
+    },
+    "A_LiYO2_mp-7020": {
+      "E0_eV_per_cell": -120.3124716,
+      "atoms": 16,
+      "ionic_steps": 10,
+      "last_max_force_eV_per_A": 0.00901856806815805,
+      "status": "弛豫收敛"
+    },
+    "B_Li2CaHfF8_mp-16577": {
+      "E0_eV_per_cell": -73.23564003,
+      "atoms": 12,
+      "ionic_steps": 11,
+      "last_max_force_eV_per_A": 0.009401677616255516,
+      "status": "弛豫收敛"
+    },
+    "B_Li2Mg2(SO4)3_mp-14646": {
+      "E0_eV_per_cell": -462.28395356,
+      "atoms": 76,
+      "ionic_steps": 31,
+      "last_max_force_eV_per_A": 0.0090933884223649,
+      "status": "弛豫收敛"
+    },
+    "B_Li2SO4_mp-4556": {
+      "E0_eV_per_cell": -164.7991725,
+      "atoms": 28,
+      "ionic_steps": 58,
+      "last_max_force_eV_per_A": 0.009754409464442223,
+      "status": "弛豫收敛"
+    },
+    "B_Li3ErBr6_mp-1222492": {
+      "E0_eV_per_cell": -30635.83885213,
+      "atoms": 10,
+      "ionic_steps": 2,
+      "last_max_force_eV_per_A": 4016.08612178188,
+      "status": "未完成/未收敛"
+    },
+    "B_Li3InCl6_mp-676109": {
+      "E0_eV_per_cell": -206.78819346,
+      "atoms": 60,
+      "ionic_steps": 59,
+      "last_max_force_eV_per_A": 0.009809809274394687,
+      "status": "弛豫收敛"
+    },
+    "B_LiAlCl4_mp-22983": {
+      "E0_eV_per_cell": -91.58180876,
+      "atoms": 24,
+      "ionic_steps": 200,
+      "last_max_force_eV_per_A": 0.025500158921073417,
+      "status": "NSW用尽未收敛"
+    },
+    "B_LiBF4_mp-12403": {
+      "E0_eV_per_cell": -100.73933119,
+      "atoms": 18,
+      "ionic_steps": 58,
+      "last_max_force_eV_per_A": 0.009480236600423008,
+      "status": "弛豫收敛"
+    },
+    "B_LiGaBr4_mp-28326": {
+      "E0_eV_per_cell": -71.69561001,
+      "atoms": 24,
+      "ionic_steps": 110,
+      "last_max_force_eV_per_A": 0.00988974433441027,
+      "status": "弛豫收敛"
+    },
+    "B_LiGaCl4_mp-28341": {
+      "E0_eV_per_cell": -81.55957535,
+      "atoms": 24,
+      "ionic_steps": 200,
+      "last_max_force_eV_per_A": 0.019051102697744297,
+      "status": "NSW用尽未收敛"
+    }
+  },
+  "licl": {
+    "static": {
+      "E0_eV": -7.15487345,
+      "status": "数值完成（未做完整物理收敛验证）",
+      "note": "软件小算例，未完成物理收敛验证。弹性结果存在负特征值，不作为材料力学结论。"
+    },
+    "dos": {
+      "E0_eV": -7.17772891,
+      "status": "数值完成（未做完整物理收敛验证）",
+      "note": "软件小算例，未完成物理收敛验证。弹性结果存在负特征值，不作为材料力学结论。"
+    },
+    "elastic": {
+      "E0_eV": -7.15487347,
+      "status": "数值完成（未做完整物理收敛验证）",
+      "note": "软件小算例，未完成物理收敛验证。弹性结果存在负特征值，不作为材料力学结论。"
+    }
+  },
+  "lif_defect_raw_formation_energies": {
+    "VLi_s0_qm1": {
+      "charge": -1,
+      "raw_Ef_eV": 5.3128,
+      "converged": true
+    },
+    "VLi_s0_q0": {
+      "charge": 0,
+      "raw_Ef_eV": 6.7368,
+      "converged": true
+    },
+    "Lii_s0_q1": {
+      "charge": 1,
+      "raw_Ef_eV": -3.1911,
+      "converged": true
+    },
+    "Lii_s0_q0": {
+      "charge": 0,
+      "raw_Ef_eV": 6.1942,
+      "converged": true
+    }
+  },
+  "cineb_workflow": {
+    "intermediate_images": 3,
+    "all_force_converged": true,
+    "max_force_eV_per_A": 0.003823,
+    "note": "单原子在周期晶胞内移动0.1 Å，近乎零势垒的流程测试，不是实际材料迁移能。"
+  }
+}

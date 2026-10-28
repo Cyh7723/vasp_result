@@ -1,0 +1,16 @@
+SYSTEM = LiCl elastic software test; do not use as a converged material tensor
+PREC = Accurate
+ENCUT = 300
+EDIFF = 1E-7
+NELM = 100
+ALGO = Normal
+ISMEAR = 0
+SIGMA = 0.05
+LREAL = .FALSE.
+IBRION = 6
+ISIF = 3
+NSW = 1
+POTIM = 0.015
+NFREE = 2
+LWAVE = .FALSE.
+LCHARG = .FALSE.

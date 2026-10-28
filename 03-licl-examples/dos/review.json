@@ -1,0 +1,33 @@
+{
+  "input_files": {
+    "INCAR": true,
+    "POSCAR": true,
+    "KPOINTS": true,
+    "POTCAR": true
+  },
+  "scientific_status": "numerically_finished_requires_physical_review",
+  "not_proven": [
+    "numerical convergence across ENCUT/k-points/cell size",
+    "correct model and reference states"
+  ],
+  "log_matches": [],
+  "vasp_finished": true,
+  "neb_root": false,
+  "vasp_version": "6.5.1",
+  "final_energy_ev": -7.17772891,
+  "final_free_energy_ev": -7.1777289,
+  "electronic_converged": true,
+  "ionic_converged": true,
+  "number_ionic_steps": 1,
+  "number_atoms": 2,
+  "final_formula": "Li1 Cl1",
+  "parameters_checked_from_vasprun": true,
+  "max_force_ev_per_A": 0.0,
+  "band_structure": {
+    "gap_ev": 5.0042,
+    "cbm_ev": 3.7493,
+    "vbm_ev": -1.2549,
+    "is_direct_at_reported_band_extrema": true,
+    "caution": "Sampling is limited to this calculation's k-points; not an interface band offset"
+  }
+}

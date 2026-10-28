@@ -1,0 +1,12 @@
+{
+  "n_materials": 1,
+  "n_defect_calcs": 4,
+  "n_converged": 4,
+  "n_failed": 0,
+  "next_steps": [
+    "1. 用 doped DefectsParser 解析 vasprun.xml + LOCPOT",
+    "2. 输入介电张量(OUTCAR: MACROSCOPIC STATIC DIELECTRIC TENSOR) 做 eFNV 修正",
+    "3. CompetingPhasesAnalyzer 确定 μ_Li 允许区间",
+    "4. DefectThermodynamics + FermiSolver 求自洽费米能级与浓度"
+  ]
+}

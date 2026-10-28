@@ -1,0 +1,205 @@
+[
+  {
+    "group": "卤化物能量",
+    "calculation": "Li2ZrCl6",
+    "path": "01-halide-energies/Li2ZrCl6",
+    "files": 21,
+    "notes": "弛豫收敛；静态计算正常完成，结构来自实验精修后有序化。"
+  },
+  {
+    "group": "卤化物能量",
+    "calculation": "Li2ZrCl6_beta",
+    "path": "01-halide-energies/Li2ZrCl6_beta",
+    "files": 21,
+    "notes": "弛豫收敛；静态计算正常完成，结构来自实验精修后有序化。"
+  },
+  {
+    "group": "卤化物能量",
+    "calculation": "Li3YCl6",
+    "path": "01-halide-energies/Li3YCl6",
+    "files": 21,
+    "notes": "弛豫收敛；静态计算正常完成，结构来自实验精修后有序化。"
+  },
+  {
+    "group": "卤化物能量",
+    "calculation": "Li3YCl6_amp",
+    "path": "01-halide-energies/Li3YCl6_amp",
+    "files": 21,
+    "notes": "弛豫收敛；静态计算正常完成，结构来自实验精修后有序化。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_Li2O_mp-1960",
+    "path": "02-bulk-relaxations/A_Li2O_mp-1960",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_Li2S_mp-1153",
+    "path": "02-bulk-relaxations/A_Li2S_mp-1153",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_Li2Te_mp-2530",
+    "path": "02-bulk-relaxations/A_Li2Te_mp-2530",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_Li3BN2_mp-5914",
+    "path": "02-bulk-relaxations/A_Li3BN2_mp-5914",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_Li3YN2_mp-1029592",
+    "path": "02-bulk-relaxations/A_Li3YN2_mp-1029592",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_Li7VN4_mp-4825",
+    "path": "02-bulk-relaxations/A_Li7VN4_mp-4825",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_LiBr_mp-976280",
+    "path": "02-bulk-relaxations/A_LiBr_mp-976280",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_LiCl_mp-1185319",
+    "path": "02-bulk-relaxations/A_LiCl_mp-1185319",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_LiErO2_mp-10970",
+    "path": "02-bulk-relaxations/A_LiErO2_mp-10970",
+    "files": 11,
+    "notes": "计算未完成或未收敛；仅保留诊断结果。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_LiF_mp-1138",
+    "path": "02-bulk-relaxations/A_LiF_mp-1138",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_LiI_mp-570935",
+    "path": "02-bulk-relaxations/A_LiI_mp-570935",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "A_LiYO2_mp-7020",
+    "path": "02-bulk-relaxations/A_LiYO2_mp-7020",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "B_Li2CaHfF8_mp-16577",
+    "path": "02-bulk-relaxations/B_Li2CaHfF8_mp-16577",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "B_Li2Mg2(SO4)3_mp-14646",
+    "path": "02-bulk-relaxations/B_Li2Mg2(SO4)3_mp-14646",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "B_Li2SO4_mp-4556",
+    "path": "02-bulk-relaxations/B_Li2SO4_mp-4556",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "B_Li3ErBr6_mp-1222492",
+    "path": "02-bulk-relaxations/B_Li3ErBr6_mp-1222492",
+    "files": 11,
+    "notes": "计算未完成或未收敛；仅保留诊断结果。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "B_Li3InCl6_mp-676109",
+    "path": "02-bulk-relaxations/B_Li3InCl6_mp-676109",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "B_LiAlCl4_mp-22983",
+    "path": "02-bulk-relaxations/B_LiAlCl4_mp-22983",
+    "files": 11,
+    "notes": "达到 NSW 上限，未收敛；不能作为最终弛豫能量。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "B_LiBF4_mp-12403",
+    "path": "02-bulk-relaxations/B_LiBF4_mp-12403",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "B_LiGaBr4_mp-28326",
+    "path": "02-bulk-relaxations/B_LiGaBr4_mp-28326",
+    "files": 11,
+    "notes": "离子弛豫达到设定力收敛标准。"
+  },
+  {
+    "group": "候选材料体相弛豫",
+    "calculation": "B_LiGaCl4_mp-28341",
+    "path": "02-bulk-relaxations/B_LiGaCl4_mp-28341",
+    "files": 11,
+    "notes": "达到 NSW 上限，未收敛；不能作为最终弛豫能量。"
+  },
+  {
+    "group": "LiCl 小算例",
+    "calculation": "LiCl 静态、DOS 与弹性",
+    "path": "03-licl-examples",
+    "files": 34,
+    "notes": "数值完成；未完成完整物理收敛验证。弹性张量有负特征值，不能作为合格力学参数。"
+  },
+  {
+    "group": "Si 小算例",
+    "calculation": "Si 弛豫、静态、DOS、弹性和 NEB 测试",
+    "path": "04-si-examples",
+    "files": 25,
+    "notes": "软件测试输出；部分计算只有少量离子步或未收敛，不作为物理结论。"
+  },
+  {
+    "group": "LiF 缺陷流程验证",
+    "calculation": "LiF 小超胞",
+    "path": "05-lif-defect-validation/raw",
+    "files": "见目录",
+    "notes": "4 个缺陷任务已收敛；原始形成能未做有限尺寸修正、VBM 对齐和化学势相图，不能直接用于生产结论。"
+  },
+  {
+    "group": "CI-NEB 功能测试",
+    "calculation": "单原子 0.1 Å 位移",
+    "path": "06-cineb-vtst-simple",
+    "files": "见目录",
+    "notes": "三个中间像均达到力收敛；近乎零势垒的流程测试，不是实际材料迁移能。"
+  }
+]

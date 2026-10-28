@@ -1,0 +1,15 @@
+# INCAR — 静态单点 (static), 取反应能用的最终总能量
+PREC    = Accurate
+ENCUT   = 520
+EDIFF   = 1E-7
+ISMEAR  = -5         # 四面体方法+Blöchl 修正, 绝缘体静态能量最准
+SIGMA   = 0.05
+IBRION  = -1
+NSW     = 0
+ALGO    = Normal
+LREAL   = .FALSE.    # 静态用精确投影
+LWAVE   = .FALSE.
+LCHARG  = .FALSE.
+ADDGRID = .TRUE.
+LASPH   = .TRUE.
+LORBIT  = 11

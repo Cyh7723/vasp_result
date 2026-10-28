@@ -1,0 +1,33 @@
+﻿目录,材料/算例,任务,原子数,离子步,E0能量(eV),最后最大力(eV/Å),数值状态
+01-halide-energies/Li2ZrCl6/relax,Li2ZrCl6,relax,27,37,-116.55328145,0.007481729813351989,弛豫收敛
+01-halide-energies/Li2ZrCl6/static,Li2ZrCl6,static,27,1,-118.69881313,0.007567540881951018,数值完成（未做完整物理收敛验证）
+01-halide-energies/Li2ZrCl6_beta/relax,Li2ZrCl6_beta,relax,9,30,-38.98323404,0.009627252255965875,弛豫收敛
+01-halide-energies/Li2ZrCl6_beta/static,Li2ZrCl6_beta,static,9,1,-39.68560086,0.009997930435845211,数值完成（未做完整物理收敛验证）
+01-halide-energies/Li3YCl6/relax,Li3YCl6,relax,30,18,-129.2769724,0.008989582526458055,弛豫收敛
+01-halide-energies/Li3YCl6/static,Li3YCl6,static,30,1,-129.51363818,0.008758295895892077,数值完成（未做完整物理收敛验证）
+01-halide-energies/Li3YCl6_amp/relax,Li3YCl6_amp,relax,30,17,-129.26103678,0.009145,弛豫收敛
+01-halide-energies/Li3YCl6_amp/static,Li3YCl6_amp,static,30,1,-129.51380737,0.006671,数值完成（未做完整物理收敛验证）
+02-bulk-relaxations/A_Li2O_mp-1960,A_Li2O_mp-1960,relax,3,4,-14.32153674,2.092844953645635e-05,弛豫收敛
+02-bulk-relaxations/A_Li2S_mp-1153,A_Li2S_mp-1153,relax,3,3,-11.93535385,6.1644140029689764e-06,弛豫收敛
+02-bulk-relaxations/A_Li2Te_mp-2530,A_Li2Te_mp-2530,relax,3,3,-10.00138556,3.0347981810987036e-05,弛豫收敛
+02-bulk-relaxations/A_Li3BN2_mp-5914,A_Li3BN2_mp-5914,relax,24,12,-136.90961002,0.00818113256218233,弛豫收敛
+02-bulk-relaxations/A_Li3YN2_mp-1029592,A_Li3YN2_mp-1029592,relax,48,13,-270.86377334,0.006412914781906898,弛豫收敛
+02-bulk-relaxations/A_Li7VN4_mp-4825,A_Li7VN4_mp-4825,relax,96,9,-495.27845489,0.008055401976313784,弛豫收敛
+02-bulk-relaxations/A_LiBr_mp-976280,A_LiBr_mp-976280,relax,4,9,-13.37170026,0.008873003662796494,弛豫收敛
+02-bulk-relaxations/A_LiCl_mp-1185319,A_LiCl_mp-1185319,relax,4,7,-14.85672505,0.009713000669206195,弛豫收敛
+02-bulk-relaxations/A_LiErO2_mp-10970,A_LiErO2_mp-10970,relax,16,1,-123.44020247,0.6803768012461918,未完成/未收敛
+02-bulk-relaxations/A_LiF_mp-1138,A_LiF_mp-1138,relax,2,3,-9.62194519,0.0,弛豫收敛
+02-bulk-relaxations/A_LiI_mp-570935,A_LiI_mp-570935,relax,4,4,-11.77910799,0.005657007070881209,弛豫收敛
+02-bulk-relaxations/A_LiYO2_mp-7020,A_LiYO2_mp-7020,relax,16,10,-120.3124716,0.00901856806815805,弛豫收敛
+02-bulk-relaxations/B_Li2CaHfF8_mp-16577,B_Li2CaHfF8_mp-16577,relax,12,11,-73.23564003,0.009401677616255516,弛豫收敛
+02-bulk-relaxations/B_Li2Mg2(SO4)3_mp-14646,B_Li2Mg2(SO4)3_mp-14646,relax,76,31,-462.28395356,0.0090933884223649,弛豫收敛
+02-bulk-relaxations/B_Li2SO4_mp-4556,B_Li2SO4_mp-4556,relax,28,58,-164.7991725,0.009754409464442223,弛豫收敛
+02-bulk-relaxations/B_Li3ErBr6_mp-1222492,B_Li3ErBr6_mp-1222492,relax,10,2,-30635.83885213,4016.08612178188,未完成/未收敛
+02-bulk-relaxations/B_Li3InCl6_mp-676109,B_Li3InCl6_mp-676109,relax,60,59,-206.78819346,0.009809809274394687,弛豫收敛
+02-bulk-relaxations/B_LiAlCl4_mp-22983,B_LiAlCl4_mp-22983,relax,24,200,-91.58180876,0.025500158921073417,NSW用尽未收敛
+02-bulk-relaxations/B_LiBF4_mp-12403,B_LiBF4_mp-12403,relax,18,58,-100.73933119,0.009480236600423008,弛豫收敛
+02-bulk-relaxations/B_LiGaBr4_mp-28326,B_LiGaBr4_mp-28326,relax,24,110,-71.69561001,0.00988974433441027,弛豫收敛
+02-bulk-relaxations/B_LiGaCl4_mp-28341,B_LiGaCl4_mp-28341,relax,24,200,-81.55957535,0.019051102697744297,NSW用尽未收敛
+03-licl-examples/static,LiCl 小算例,static,2,1,-7.15487345,0.0,数值完成（未做完整物理收敛验证）
+03-licl-examples/dos,LiCl 小算例,dos,2,1,-7.17772891,0.0,数值完成（未做完整物理收敛验证）
+03-licl-examples/elastic,LiCl 小算例,elastic,2,17,-7.15487347,0.004936,数值完成（未做完整物理收敛验证）

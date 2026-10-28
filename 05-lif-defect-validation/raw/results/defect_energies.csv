@@ -1,0 +1,5 @@
+material,defect,type,q,energy_eV,converged,magmom,e_bulk_sc,e_bulk_per_atom
+A_LiF_test_mp-1138,VLi_s0_qm1,VLi,-1,-69.980018,True,,-77.192857,-4.8245535625
+A_LiF_test_mp-1138,VLi_s0_q0,VLi,0,-68.556015,True,,-77.192857,-4.8245535625
+A_LiF_test_mp-1138,Lii_s0_q1,Lii,1,-82.283974,True,,-77.192857,-4.8245535625
+A_LiF_test_mp-1138,Lii_s0_q0,Lii,0,-72.898625,True,,-77.192857,-4.8245535625

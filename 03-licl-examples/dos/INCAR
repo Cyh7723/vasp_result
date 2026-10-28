@@ -1,0 +1,16 @@
+SYSTEM = LiCl DOS software test; not converged production parameters
+PREC = Accurate
+ENCUT = 300
+EDIFF = 1E-6
+NELM = 100
+ALGO = Normal
+ISMEAR = -5
+LORBIT = 11
+NEDOS = 2001
+LREAL = .FALSE.
+IBRION = -1
+NSW = 0
+ISIF = 2
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+ICHARG = 11

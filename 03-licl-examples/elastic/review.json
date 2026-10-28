@@ -1,0 +1,242 @@
+{
+  "input_voigt_order": [
+    "xx",
+    "yy",
+    "zz",
+    "xy",
+    "yz",
+    "zx"
+  ],
+  "input_unit": "kbar",
+  "tensor_gpa": [
+    [
+      12.9694,
+      16.92997,
+      16.92997,
+      -0.0,
+      0.0,
+      0.0
+    ],
+    [
+      16.92997,
+      12.9694,
+      16.92997,
+      -0.0,
+      0.0,
+      0.0
+    ],
+    [
+      16.92997,
+      16.92997,
+      12.9694,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -0.0,
+      19.18371,
+      -0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      19.18371,
+      -0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      -0.0,
+      19.18371
+    ]
+  ],
+  "compliance_gpa_inverse": [
+    [
+      -0.161207894960386,
+      0.09128101446426751,
+      0.0912810144642675,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.09128101446426751,
+      -0.16120789496038598,
+      0.09128101446426752,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.09128101446426752,
+      0.09128101446426751,
+      -0.16120789496038598,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.052127560310284086,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.052127560310284086,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.052127560310284086
+    ]
+  ],
+  "asymmetry_in_input_unit": 0.0,
+  "eigenvalues_gpa": [
+    -3.9605700000000095,
+    -3.9605700000000006,
+    19.18371,
+    19.18371,
+    19.18371,
+    46.82933999999999
+  ],
+  "born_positive_eigenvalue_screen": false,
+  "voigt_reuss_hill": {
+    "K_v_gpa": 15.60978,
+    "K_r_gpa": 15.609780000000018,
+    "K_h_gpa": 15.60978000000001,
+    "G_v_gpa": 10.718112,
+    "G_r_gpa": -5.857730098354543,
+    "G_h_gpa": 2.430190950822728
+  },
+  "isotropic_approximation": {
+    "young_modulus_gpa": 6.930896586162078,
+    "poisson_ratio": 0.4259983528898542
+  },
+  "directional_young_modulus_gpa": {
+    "principal_cartesian_directions": {
+      "[100]": NaN,
+      "[010]": NaN,
+      "[001]": NaN,
+      "[110]": NaN,
+      "[111]": 40.82649467270788
+    },
+    "extrema_scope": "minimum/maximum of a finite angular grid (36 azimuth points), not guaranteed global extrema",
+    "minimum": NaN,
+    "maximum": NaN,
+    "samples": []
+  },
+  "scientific_status": "negative_elastic_eigenvalue_requires_structure_and_convergence_review",
+  "cautions": [
+    "Positive eigenvalues are a small-strain screen, not finite-temperature dynamical stability",
+    "Isotropic K/G/E/nu do not describe all crystallographic directions or fracture",
+    "Input must be the converged, relaxed, total elastic tensor in the declared Voigt convention",
+    "No claim about dendrite suppression follows from moduli alone"
+  ],
+  "run": {
+    "input_files": {
+      "INCAR": true,
+      "POSCAR": true,
+      "KPOINTS": true,
+      "POTCAR": true
+    },
+    "scientific_status": "numerically_finished_requires_physical_review",
+    "not_proven": [
+      "numerical convergence across ENCUT/k-points/cell size",
+      "correct model and reference states"
+    ],
+    "log_matches": [],
+    "vasp_finished": true,
+    "neb_root": false,
+    "vasp_version": "6.5.1",
+    "final_energy_ev": -7.15490958,
+    "final_free_energy_ev": -7.1549096,
+    "electronic_converged": true,
+    "ionic_converged": true,
+    "number_ionic_steps": 17,
+    "number_atoms": 2,
+    "final_formula": "Li1 Cl1",
+    "parameters_checked_from_vasprun": true,
+    "max_force_ev_per_A": 0.00493603,
+    "elastic": {
+      "voigt_order_reported": [
+        "xx",
+        "yy",
+        "zz",
+        "xy",
+        "yz",
+        "zx"
+      ],
+      "source_label": "TOTAL ELASTIC MODULI (kBar)",
+      "unit": "kBar",
+      "includes_ionic_relaxation": true,
+      "tensor_kbar": [
+        [
+          129.694,
+          169.2997,
+          169.2997,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          169.2997,
+          129.694,
+          169.2997,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          169.2997,
+          169.2997,
+          129.694,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.0,
+          191.8371,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          191.8371,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          191.8371
+        ]
+      ]
+    }
+  }
+}
