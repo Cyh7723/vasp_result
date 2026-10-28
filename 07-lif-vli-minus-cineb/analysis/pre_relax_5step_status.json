@@ -1,0 +1,144 @@
+{
+  "root": ".",
+  "images": {
+    "01": {
+      "ionic_steps": 5,
+      "energies_E0_eV": [
+        [
+          1,
+          -69.201718
+        ],
+        [
+          2,
+          -69.26408
+        ],
+        [
+          3,
+          -69.362403
+        ],
+        [
+          4,
+          -69.459888
+        ],
+        [
+          5,
+          -69.534184
+        ]
+      ],
+      "latest_neb_max_force_eV_per_A": 0.359188,
+      "max_neb_force_history_eV_per_A": [
+        1.515283,
+        1.305737,
+        0.912937,
+        0.470306,
+        0.359188
+      ],
+      "electronic_ediff_stop_count": 5,
+      "ionic_converged": false,
+      "normal_exit": true,
+      "vtst_initialized": true,
+      "lclimb_T": false,
+      "lclimb_F": true,
+      "moving_li_fractional": [
+        1.1758315517e-06,
+        1.0000012033525922,
+        0.6220524496151205
+      ],
+      "minimum_pair_distance_angstrom": 1.7372045777027296,
+      "elapsed_seconds": 384.43
+    },
+    "02": {
+      "ionic_steps": 5,
+      "energies_E0_eV": [
+        [
+          1,
+          -67.994029
+        ],
+        [
+          2,
+          -68.35007
+        ],
+        [
+          3,
+          -68.727581
+        ],
+        [
+          4,
+          -68.945146
+        ],
+        [
+          5,
+          -69.064182
+        ]
+      ],
+      "latest_neb_max_force_eV_per_A": 0.384687,
+      "max_neb_force_history_eV_per_A": [
+        4.32992,
+        2.975161,
+        1.157795,
+        0.570817,
+        0.384687
+      ],
+      "electronic_ediff_stop_count": 5,
+      "ionic_converged": false,
+      "normal_exit": true,
+      "vtst_initialized": true,
+      "lclimb_T": false,
+      "lclimb_F": true,
+      "moving_li_fractional": [
+        2.601747563e-07,
+        0.9999998558634888,
+        0.7500001761663718
+      ],
+      "minimum_pair_distance_angstrom": 1.6595674124580497,
+      "elapsed_seconds": 384.431
+    },
+    "03": {
+      "ionic_steps": 5,
+      "energies_E0_eV": [
+        [
+          1,
+          -69.201707
+        ],
+        [
+          2,
+          -69.264069
+        ],
+        [
+          3,
+          -69.362397
+        ],
+        [
+          4,
+          -69.459878
+        ],
+        [
+          5,
+          -69.534182
+        ]
+      ],
+      "latest_neb_max_force_eV_per_A": 0.359995,
+      "max_neb_force_history_eV_per_A": [
+        1.515265,
+        1.305754,
+        0.913012,
+        0.470874,
+        0.359995
+      ],
+      "electronic_ediff_stop_count": 5,
+      "ionic_converged": false,
+      "normal_exit": true,
+      "vtst_initialized": true,
+      "lclimb_T": false,
+      "lclimb_F": true,
+      "moving_li_fractional": [
+        -1.4578604107e-06,
+        -1.3404574858e-06,
+        0.8779500428143194
+      ],
+      "minimum_pair_distance_angstrom": 1.7372124934077722,
+      "elapsed_seconds": 384.431
+    }
+  },
+  "max_latest_neb_force_eV_per_A": 0.384687
+}

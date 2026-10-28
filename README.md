@@ -70,6 +70,21 @@
 
 单原子在周期晶胞内移动 0.1 Å，使用 3 个中间像。三个像均达到力收敛，最大 VTST 原子力为 0.003823 eV/Å。该路径近乎零势垒，只用于验证 CI-NEB 工作流，**不是实际材料迁移能**。
 
+## 7. LiF 负电锂空位迁移 CI-NEB（已收敛）
+
+目录：[07-lif-vli-minus-cineb](07-lif-vli-minus-cineb)
+
+15 原子 LiF 小超胞（7 Li + 8 F），NELECT = 78，PBE，ENCUT = 500 eV，Gamma 中心 2×2×2，3 个中间像。初末态均独立弛豫并达到 0.01 eV/Å 的要求，端点能量差仅 0.00000004 eV。
+
+实际输出确认 `VTST: version 5.1` 和 `NEB: LCLIMB T`。最终三个像的 NEB 最大有效力为 0.028924、0.007004、0.028928 eV/Å，均满足 ≤0.03 eV/Å，7 个 CI-NEB 离子步均达到电子收敛。
+
+按 `energy(sigma->0)`，正向势垒为 **0.72847743 eV**，反向势垒为 **0.72847739 eV**。这是小超胞练习结果，不作为对论文 0.75 eV 参考值的精确复现。
+
+- [完整结果报告](07-lif-vli-minus-cineb/README_结果报告.md)
+- [能量曲线](07-lif-vli-minus-cineb/analysis/cineb_energy_profile.png)
+- [能量与力 CSV](07-lif-vli-minus-cineb/analysis/cineb_energy_profile.csv)
+- [机器可读摘要](07-lif-vli-minus-cineb/analysis/cineb_summary.json)
+
 ## 文件说明与使用边界
 
 - `OUTCAR`：主要结果与收敛信息；`OSZICAR`：迭代能量。
@@ -78,4 +93,4 @@
 - 静态计算没有离子弛豫标记是正常的，不能因此误判为未收敛。
 - “正常结束”不等于“物理收敛”。能量、带隙、弹性与迁移结果仍需分别检查模型、参数和收敛。
 - 已移除 `POTCAR`、VASP/VTST 程序、波函数、电荷密度、冗余运行日志和本机路径。第三方文献与课程压缩包也未纳入。
-- 原始计算文件保留在原工作目录，本仓库为独立整理副本，尚未上传或提交到 GitHub。
+- 原始计算文件保留在原工作目录，本仓库为独立整理副本。

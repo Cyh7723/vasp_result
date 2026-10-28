@@ -1,0 +1,54 @@
+{
+  "vacancy_original_full_atom_1based": 1,
+  "vacancy_fractional_coordinate": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "moving_li_original_full_atom_1based": 2,
+  "moving_li_defect_atom_1based": 1,
+  "start_fractional_coordinate": [
+    0.0,
+    0.0,
+    0.5
+  ],
+  "end_fractional_coordinate": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "minimum_image_displacement_fractional": [
+    0.0,
+    0.0,
+    -0.5
+  ],
+  "migration_distance_angstrom": 2.842569260369921,
+  "candidate_neighbor_distances_angstrom": [
+    2.842569260369921,
+    2.842569260369921,
+    4.923474382994187,
+    2.842569260369921,
+    4.923474382994187,
+    4.923474382994187,
+    6.962844246426886
+  ],
+  "atom_order": "Delete original full Li 1; all other atom identities and ordering retained. Move original full Li 2 to vacancy for final.",
+  "lattice_identical_for_all_endpoints_and_images": true,
+  "nelect": 78,
+  "potcar": [
+    {
+      "element": "Li",
+      "TITEL": "PAW_PBE Li_sv 10Sep2004",
+      "ZVAL": 3.0,
+      "ENMAX": 499.034
+    },
+    {
+      "element": "F",
+      "TITEL": "PAW_PBE F 08Apr2002",
+      "ZVAL": 7.0,
+      "ENMAX": 400.0
+    }
+  ],
+  "vasp_executable": "User-provided VTST-enabled VASP 6.5.1",
+  "mpi_command": "6 MPI ranks, 2 per image; use the locally verified MPI launcher"
+}

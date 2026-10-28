@@ -1,0 +1,1 @@
+VASP 6.5.1 + VTST 5.1, verified executable in the local WSL environment.

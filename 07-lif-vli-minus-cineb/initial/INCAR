@@ -1,0 +1,26 @@
+SYSTEM = LiF VLi-minus initial endpoint
+GGA = PE
+ENCUT = 500
+PREC = Accurate
+LREAL = .FALSE.
+LASPH = .TRUE.
+
+ISPIN = 2
+MAGMOM = 15*0.0
+NELECT = 78
+
+ISMEAR = 0
+SIGMA = 0.05
+ALGO = Normal
+EDIFF = 1E-6
+NELM = 120
+
+IBRION = 2
+ISIF = 2
+NSW = 150
+EDIFFG = -0.01
+POTIM = 0.3
+
+ISYM = 0
+LWAVE = .FALSE.
+LCHARG = .FALSE.

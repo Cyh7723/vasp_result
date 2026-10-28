@@ -1,0 +1,176 @@
+{
+  "status": "converged_cineb_test",
+  "model": "LiF 2x2x2 fcc primitive-cell supercell; 7 Li + 8 F; negatively charged Li vacancy",
+  "nelect": 78,
+  "encut_eV": 500,
+  "kpoints": "Gamma-centered 2x2x2",
+  "spin_polarized": true,
+  "intermediate_images": 3,
+  "mpi_ranks": 6,
+  "ranks_per_image": 2,
+  "omp_threads_per_rank": 1,
+  "vasp_executable": "User-provided VTST-enabled VASP 6.5.1",
+  "vtst_version": "5.1, (04/25/25)",
+  "lclimb_T_in_output": true,
+  "final_electronic_ediff_stop_count": {
+    "01": 7,
+    "02": 7,
+    "03": 7
+  },
+  "all_three_images_ediff_each_step": true,
+  "all_three_images_force_converged": true,
+  "max_final_neb_force_eV_per_A": 0.028928,
+  "cineb_steps": 7,
+  "endpoint_max_force_ev_per_A": {
+    "initial": 0.000215264953023013,
+    "final": 0.00036589342710685574
+  },
+  "endpoint_initial_energy_sigma0_eV": -69.900466,
+  "endpoint_final_energy_sigma0_eV": -69.90046596,
+  "endpoint_energy_difference_eV": 3.9999989098760125e-08,
+  "forward_barrier_eV": 0.7284774299999981,
+  "reverse_barrier_eV": 0.728477390000009,
+  "highest_image": "02",
+  "energy_definition": "OUTCAR energy(sigma->0), endpoints from separate relaxations with same electronic parameters",
+  "profile": [
+    {
+      "image": "00",
+      "energy_sigma0_eV": -69.900466,
+      "relative_to_initial_eV": 0.0,
+      "max_neb_force_eV_per_A": 0.0,
+      "ionic_steps_this_stage": 4,
+      "moving_li_fractional": [
+        7.4839e-08,
+        0.999999931393,
+        0.499999878752
+      ],
+      "minimum_pair_distance_angstrom": 1.9391934458947087,
+      "elements": [
+        "Li",
+        "F"
+      ],
+      "counts": [
+        7,
+        8
+      ],
+      "electronic_ediff_stop_count": 4,
+      "normal_exit": true,
+      "lclimb_T": false,
+      "ionic_converged": true
+    },
+    {
+      "image": "01",
+      "energy_sigma0_eV": -69.63519257,
+      "relative_to_initial_eV": 0.2652734299999935,
+      "max_neb_force_eV_per_A": 0.028924,
+      "ionic_steps_this_stage": 7,
+      "moving_li_fractional": [
+        2.818033771e-07,
+        0.9999994390534422,
+        0.6194522740037394
+      ],
+      "minimum_pair_distance_angstrom": 1.7579795187216243,
+      "elements": [
+        "Li",
+        "F"
+      ],
+      "counts": [
+        7,
+        8
+      ],
+      "electronic_ediff_stop_count": 7,
+      "normal_exit": true,
+      "lclimb_T": true,
+      "ionic_converged": true
+    },
+    {
+      "image": "02",
+      "energy_sigma0_eV": -69.17198857,
+      "relative_to_initial_eV": 0.7284774299999981,
+      "max_neb_force_eV_per_A": 0.007004,
+      "ionic_steps_this_stage": 7,
+      "moving_li_fractional": [
+        1.0000000864169685,
+        2.73097686e-08,
+        0.7499999210767955
+      ],
+      "minimum_pair_distance_angstrom": 1.6598599674023136,
+      "elements": [
+        "Li",
+        "F"
+      ],
+      "counts": [
+        7,
+        8
+      ],
+      "electronic_ediff_stop_count": 7,
+      "normal_exit": true,
+      "lclimb_T": true,
+      "ionic_converged": true
+    },
+    {
+      "image": "03",
+      "energy_sigma0_eV": -69.63518812,
+      "relative_to_initial_eV": 0.2652778799999993,
+      "max_neb_force_eV_per_A": 0.028928,
+      "ionic_steps_this_stage": 7,
+      "moving_li_fractional": [
+        0.999999862594539,
+        1.0676498944e-06,
+        0.8805468700122463
+      ],
+      "minimum_pair_distance_angstrom": 1.7579773263690432,
+      "elements": [
+        "Li",
+        "F"
+      ],
+      "counts": [
+        7,
+        8
+      ],
+      "electronic_ediff_stop_count": 7,
+      "normal_exit": true,
+      "lclimb_T": true,
+      "ionic_converged": true
+    },
+    {
+      "image": "04",
+      "energy_sigma0_eV": -69.90046596,
+      "relative_to_initial_eV": 3.9999989098760125e-08,
+      "max_neb_force_eV_per_A": 0.0,
+      "ionic_steps_this_stage": 4,
+      "moving_li_fractional": [
+        1.84454e-07,
+        4.3633e-08,
+        0.999999761704
+      ],
+      "minimum_pair_distance_angstrom": 1.9392087403142522,
+      "elements": [
+        "Li",
+        "F"
+      ],
+      "counts": [
+        7,
+        8
+      ],
+      "electronic_ediff_stop_count": 4,
+      "normal_exit": true,
+      "lclimb_T": false,
+      "ionic_converged": true
+    }
+  ],
+  "pre_relax": {
+    "first_stage_steps": 5,
+    "first_stage_wall_seconds": 384.96,
+    "continued_stage_steps": 8,
+    "continued_stage_wall_seconds": 446.17,
+    "final_max_neb_force_eV_per_A": 0.047415
+  },
+  "cineb_wall_seconds": 332.44,
+  "cineb_seconds_per_ionic_step": 47.49142857142857,
+  "literature_reference": {
+    "neutral_vacancy_barrier_eV": 0.73,
+    "negative_vacancy_barrier_eV": 0.75,
+    "caution": "Small-cell educational test; not expected to reproduce paper values."
+  }
+}

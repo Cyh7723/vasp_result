@@ -1,0 +1,39 @@
+{
+  "endpoint_max_force_ev_per_A": {
+    "initial": 0.000215264953023013,
+    "final": 0.00036589342710685574
+  },
+  "images": {
+    "01": {
+      "moving_li_fraction": [
+        1.022425441e-07,
+        0.9999999594527093,
+        0.6249998494903434
+      ],
+      "minimum_pair_distance_angstrom": 1.6232452139899785,
+      "lattice_matches_endpoints": true
+    },
+    "02": {
+      "moving_li_fraction": [
+        1.296463141e-07,
+        0.9999999875126829,
+        0.7499998202282834
+      ],
+      "minimum_pair_distance_angstrom": 1.4713462711727725,
+      "lattice_matches_endpoints": true
+    },
+    "03": {
+      "moving_li_fraction": [
+        1.570500841e-07,
+        1.0000000155726565,
+        0.8749997909662233
+      ],
+      "minimum_pair_distance_angstrom": 1.6232438802070852,
+      "lattice_matches_endpoints": true
+    }
+  },
+  "moving_li_defect_atom_1based": 1,
+  "potcar_sha256": "a93b5b2f2a8fa7dc39056afe00f39063e04c2a35c3393f161284c5e93132f0a4",
+  "endpoint_energy_difference_eV": 4e-05,
+  "note": "Linear interpolation with component-wise minimum-image displacement; only the migrating Li crosses a periodic boundary."
+}
